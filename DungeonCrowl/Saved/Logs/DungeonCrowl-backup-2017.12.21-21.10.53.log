@@ -1,0 +1,711 @@
+﻿Log file open, 12/21/17 18:50:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DungeonCrowl
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(562366305) SRandInit(562366305).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.189090
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.21-08.50.33:361][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-08.50.33:361][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.21-08.50.33:382][  0]LogInit: Computer: DESKTOP-LT914LN
+[2017.12.21-08.50.33:383][  0]LogInit: User: VictorWeidar
+[2017.12.21-08.50.33:383][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.21-08.50.33:383][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2017.12.21-08.50.33:383][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.12.21-08.50.33:383][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.21-08.50.33:383][  0]LogMemory: Process Physical Memory: 278.16 MB used, 278.16 MB peak
+[2017.12.21-08.50.33:383][  0]LogMemory: Process Virtual Memory: 274.22 MB used, 274.22 MB peak
+[2017.12.21-08.50.33:383][  0]LogMemory: Physical Memory: 7618.60 MB used,  8701.21 MB free, 16319.81 MB total
+[2017.12.21-08.50.33:383][  0]LogMemory: Virtual Memory: 702.39 MB used,  8701.21 MB free, 134217728.00 MB total
+[2017.12.21-08.50.33:694][  0]LogInit: Using OS detected language (en-GB).
+[2017.12.21-08.50.33:694][  0]LogInit: Using OS detected locale (en-AU).
+[2017.12.21-08.50.33:701][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.12.21-08.50.34:633][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.21-08.50.34:703][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.12.21-08.50.34:703][  0]LogD3D11RHI:       6084/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.21-08.50.34:706][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.21-08.50.34:706][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.21-08.50.34:706][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.21-08.50.34:714][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.21-08.50.34:714][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.21-08.50.34:714][  0]LogWindows: EnumDisplayDevices:
+[2017.12.21-08.50.34:715][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.12.21-08.50.34:715][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.12.21-08.50.34:715][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.12.21-08.50.34:715][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.12.21-08.50.34:715][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.21-08.50.34:715][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.12.21-08.50.34:715][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.21-08.50.34:715][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.21-08.50.34:715][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.21-08.50.34:752][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.21-08.50.34:778][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.21-08.50.34:779][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061086).
+[2017.12.21-08.50.34:780][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Intermediate/Shaders/WorkingDirectory/14408/).
+[2017.12.21-08.50.34:780][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Victor Weidar/AppData/Local/Temp/UnrealShaderWorkingDir/1AE6B8BE4569177601FFBD99BE88D5B1/'.
+[2017.12.21-08.50.34:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.21-08.50.36:008][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.21-08.50.36:091][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.21-08.50.36:170][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.21-08.50.36:252][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.21-08.50.36:328][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.21-08.50.36:405][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.21-08.50.36:483][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.21-08.50.36:560][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.21-08.50.36:629][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.21-08.50.36:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.21-08.50.36:781][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.21-08.50.36:855][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.21-08.50.36:935][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.21-08.50.37:014][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.21-08.50.37:098][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.21-08.50.37:252][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.21-08.50.37:252][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.21-08.50.37:322][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.21-08.50.37:458][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.21-08.50.37:498][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.21-08.50.37:574][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.21-08.50.37:650][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.21-08.50.37:732][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.21-08.50.37:814][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.21-08.50.37:814][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.21-08.50.38:587][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Victor Weidar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Victor Weidar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.21-08.50.38:700][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.21-08.50.38:718][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.21-08.50.38:731][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Victor Weidar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.21-08.50.38:746][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.21-08.50.38:747][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.21-08.50.38:747][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-08.50.38:747][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-08.50.39:071][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2017.12.21-08.50.39:238][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-08.50.39:813][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.21-08.50.39:876][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.21-08.50.39:876][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.21-08.50.39:876][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.21-08.50.39:876][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.21-08.50.39:876][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.21-08.50.39:898][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.21-08.50.40:483][  0]LogNetVersion: DungeonCrowl , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1959916665)
+[2017.12.21-08.50.40:841][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.102159 seconds
+[2017.12.21-08.50.40:847][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.21-08.50.40:847][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.21-08.50.40:847][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.21-08.50.40:938][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.21-08.50.44:689][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.21-08.50.44:743][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.21-08.50.45:721][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.21-08.50.46:389][  0]SourceControl: Source control is disabled
+[2017.12.21-08.50.48:429][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.21-08.50.48:828][  0]LogOcInput: OculusInput pre-init called
+[2017.12.21-08.50.49:225][  0]LogEngine: Initializing Engine...
+[2017.12.21-08.50.49:228][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.21-08.50.49:585][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.21-08.50.49:585][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.21-08.50.49:789][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.21-08.50.49:801][  0]LogInit: XAudio2 using 'Hörlurar på headset (Razer ManO'War 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-08.50.49:819][  0]LogInit: FAudioDevice initialized.
+[2017.12.21-08.50.49:953][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/Victor Weidar/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-08.50.49:973][  0]LogInit: Texture streaming: Enabled
+[2017.12.21-08.50.50:196][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.21-08.50.50:594][  0]LogInit: Transaction tracking system initialized
+[2017.12.21-08.50.51:107][  0]BlueprintLog: New page: Editor Load
+[2017.12.21-08.50.52:740][  0]LocalizationService: Localization service is disabled
+[2017.12.21-08.50.53:901][  0]LogConsoleResponse: Display: 
+[2017.12.21-08.50.54:187][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.21-08.50.54:187][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.21-08.50.54:187][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.21-08.50.55:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/' took 0.02s
+[2017.12.21-08.50.55:997][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-08.50.55:998][  0]LightingResults: New page: Lighting Build
+[2017.12.21-08.50.56:065][  0]MapCheck: New page: Map Check
+[2017.12.21-08.50.56:065][  0]LightingResults: New page: Lighting Build
+[2017.12.21-08.50.56:589][  0]LogAIModule: Creating AISystem for world Dungeontest
+[2017.12.21-08.50.56:600][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.21-08.50.56:612][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-08.50.56:708][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.421ms to complete.
+[2017.12.21-08.50.56:708][  0]LogFileHelpers: Loading map 'Dungeontest' took 0.711
+[2017.12.21-08.50.56:785][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-08.50.58:895][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.DungeonCrowl
+[2017.12.21-08.50.58:896][  0]LogTemp: CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-08.50.58:896][  0]LogTemp: Initial Dir: C:\Program Files (x86)\Epic Games\UE_4.17
+[2017.12.21-08.50.58:896][  0]LogTemp: Env CWD: C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-08.50.58:896][  0]LogTemp: BranchPath = DESKTOP-LT914LN/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-LT914LN/C/Program Files (x86)/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.21-08.50.58:896][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Victor Weidar\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.21-08.50.58:896][  0]LogCollectionManager: Loaded 0 collections in 0.002563 seconds
+[2017.12.21-08.50.59:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Collections/' took 0.01s
+[2017.12.21-08.50.59:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/Developers/VictorWeidar/Collections/' took 0.01s
+[2017.12.21-08.50.59:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/Collections/' took 0.01s
+[2017.12.21-08.50.59:070][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.21-08.50.59:099][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2386 classes and 500 folders.
+[2017.12.21-08.50.59:206][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.12.21-08.50.59:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.12.21-08.50.59:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.21-08.51.00:009][  0]LogSlate: Took 0.000879 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-08.51.00:013][  0]LogSlate: Took 0.000518 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.21-08.51.00:039][  0]LogSlate: Took 0.010845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.21-08.51.00:273][  0]LogRenderer: Reallocating scene render targets to support 1192x668 Format 10 NumSamples 1 (Frame:1).
+[2017.12.21-08.51.00:564][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.21-08.51.00:564][  0]LogLoad: (Engine Initialization) Total time: 29.81 seconds
+[2017.12.21-08.51.00:565][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.21-08.51.00:565][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.21-08.51.00:565][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.21-08.51.00:625][  0]SourceControl: On branch master
+[2017.12.21-08.51.00:625][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.12.21-08.51.00:625][  0]SourceControl: Changes not staged for commit:
+[2017.12.21-08.51.00:625][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.21-08.51.00:625][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.21-08.51.00:625][  0]SourceControl: 	modified:   DungeonCrowl/Config/DefaultEngine.ini
+[2017.12.21-08.51.00:625][  0]SourceControl: 	modified:   DungeonCrowl/Intermediate/CachedAssetRegistry.bin
+[2017.12.21-08.51.00:625][  0]SourceControl: 	modified:   DungeonCrowl/Saved/Config/Windows/Engine.ini
+[2017.12.21-08.51.00:625][  0]SourceControl: 	modified:   DungeonCrowl/Saved/Logs/DungeonCrowl.log
+[2017.12.21-08.51.00:625][  0]SourceControl: Untracked files:
+[2017.12.21-08.51.00:625][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.21-08.51.00:625][  0]SourceControl: 	DungeonCrowl/Saved/Config/CrashReportClient/UE4CC-Windows-48F1434C48C52ABA26D45DBD21CC8774/
+[2017.12.21-08.51.00:625][  0]SourceControl: 	DungeonCrowl/Saved/Logs/DungeonCrowl-backup-2017.12.21-18.50.32.log
+[2017.12.21-08.51.00:625][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.21-08.51.00:625][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.21-08.51.00:703][  0]LogSlate: Took 0.008353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-08.51.00:738][  1]LogAssetRegistry: Asset discovery search completed in 21.6897 seconds
+[2017.12.21-08.51.00:741][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.21-08.51.00:741][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2017.12.21-08.55.21:360][ 21]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-08.55.28:507][337]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.12.21-08.55.29:413][337]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-08.55.29:763][337]LogRenderer: Reallocating scene render targets to support 1192x900 Format 10 NumSamples 1 (Frame:1).
+[2017.12.21-08.55.36:831][395]LogSlate: Took 0.007673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.21-08.55.38:146][472]LogSlate: Took 0.007279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.21-08.56.24:881][589]LogSlate: Took 0.006406 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.21-08.56.40:099][194]BlueprintLog: New page: Compile BaseCharacter
+[2017.12.21-08.56.50:905][819]LogSavePackage: Save=30.06ms
+[2017.12.21-08.56.50:905][819]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/BaseCharacter67B9B96B4133F01FA83364B7C9B242B0.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/BaseCharacter.uasset'
+[2017.12.21-08.56.50:927][819]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/BaseCharacter.uasset
+[2017.12.21-09.00.47:693][694]BlueprintLog: New page: Compile BaseCharacter
+[2017.12.21-09.01.03:915][799]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-09.01.12:966][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyStuff/Levels/Dungeontest' took 0.019
+[2017.12.21-09.01.12:971][826]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyStuff/Blueprints/BaseCharacter] ([1] browsable assets)...
+[2017.12.21-09.01.12:972][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/BaseCharacter]
+[2017.12.21-09.01.13:020][826]LogSavePackage: Save=33.31ms
+[2017.12.21-09.01.13:020][826]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/BaseCharacter_Auto1CABE53F645A795D23C2DD5A3B8F14139.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Autosaves/Game/MyStuff/Blueprints/BaseCharacter_Auto1.uasset'
+[2017.12.21-09.01.13:023][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Autosaves/Game/MyStuff/Blueprints/BaseCharacter_Auto1.uasset
+[2017.12.21-09.01.13:024][826]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.12.21-09.01.56:329][213]BlueprintLog: New page: Compile BaseCharacter
+[2017.12.21-09.02.35:581][ 52]BlueprintLog: New page: Compile BaseCharacter
+[2017.12.21-09.03.43:822][636]BlueprintLog: New page: Compile BaseCharacter
+[2017.12.21-09.03.44:463][652]LogSavePackage: Save=37.97ms
+[2017.12.21-09.03.44:463][652]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/BaseCharacterC96B25A14B1CA4E34EB70EBF003323C8.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/BaseCharacter.uasset'
+[2017.12.21-09.03.44:480][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/BaseCharacter.uasset
+[2017.12.21-09.05.07:762][344]SourceControl: fatal: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.12.21-09.05.18:982][344]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.12.21-09.05.19:060][344]SourceControl: [master 068e31e] Added Base Character Class
+[2017.12.21-09.05.19:060][344]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.12.21-09.05.19:060][344]SourceControl:  create mode 100644 DungeonCrowl/Content/MyStuff/Blueprints/BaseCharacter.uasset
+[2017.12.21-09.05.19:066][344]SourceControl: Commited [master 068e31e] Added Base Character Class.
+[2017.12.21-09.06.27:366][746]SourceControl: On branch master
+[2017.12.21-09.06.27:366][746]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
+[2017.12.21-09.06.27:366][746]SourceControl:   (use "git push" to publish your local commits)
+[2017.12.21-09.06.27:366][746]SourceControl: Changes not staged for commit:
+[2017.12.21-09.06.27:366][746]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.12.21-09.06.27:366][746]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Config/DefaultEngine.ini
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Intermediate/CachedAssetRegistry.bin
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Saved/Autosaves/PackageRestoreData.json
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Saved/Config/Windows/Editor.ini
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Saved/Config/Windows/Engine.ini
+[2017.12.21-09.06.27:366][746]SourceControl: 	modified:   DungeonCrowl/Saved/Logs/DungeonCrowl.log
+[2017.12.21-09.06.27:366][746]SourceControl: Untracked files:
+[2017.12.21-09.06.27:366][746]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.12.21-09.06.27:366][746]SourceControl: 	DungeonCrowl/Saved/Autosaves/Game/MyStuff/Blueprints/BaseCharacter_Auto1.uasset
+[2017.12.21-09.06.27:366][746]SourceControl: 	DungeonCrowl/Saved/Backup/BaseCharacter_2017-12-21-19-01-12.uasset
+[2017.12.21-09.06.27:366][746]SourceControl: 	DungeonCrowl/Saved/Config/CrashReportClient/UE4CC-Windows-48F1434C48C52ABA26D45DBD21CC8774/
+[2017.12.21-09.06.27:366][746]SourceControl: 	DungeonCrowl/Saved/Logs/DungeonCrowl-backup-2017.12.21-18.50.32.log
+[2017.12.21-09.06.27:366][746]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.SKEL_HeroCharacter_C' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter_C' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:727][746]LogMetaData: Removing '/Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter:EventGraph.K2Node_CallParentFunction_3' ref from Metadata '/Game/MyStuff/Blueprints/BaseCharacter_Child.PackageMetaData'
+[2017.12.21-09.06.27:784][746]LogSavePackage: Save=29.39ms
+[2017.12.21-09.06.27:784][746]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/HeroCharacter5EE6C5AF4EA15B9F7FFBCA9E8919A48D.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset'
+[2017.12.21-09.06.27:792][746]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset
+[2017.12.21-09.09.35:677][181]LogSavePackage: Save=48.49ms
+[2017.12.21-09.09.35:677][181]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/HeroCharacter45B76C9445945144F0F8E589222B28C9.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset'
+[2017.12.21-09.09.35:686][181]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset
+[2017.12.21-09.09.36:692][241]BlueprintLog: New page: Compile HeroCharacter
+[2017.12.21-09.10.09:118][301]BlueprintLog: New page: Compile HeroCharacter
+[2017.12.21-09.12.15:538][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyStuff/Levels/Dungeontest' took 0.031
+[2017.12.21-09.12.15:542][299]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyStuff/Blueprints/HeroCharacter] ([1] browsable assets)...
+[2017.12.21-09.12.15:564][299]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MyStuff/Blueprints/HeroCharacter.HeroCharacter]
+[2017.12.21-09.12.15:564][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyStuff/Blueprints/HeroCharacter]
+[2017.12.21-09.12.15:619][299]LogSavePackage: Save=44.50ms
+[2017.12.21-09.12.15:619][299]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/HeroCharacter_Auto20022FF664D5113B48E4CDF89EB264F11.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Autosaves/Game/MyStuff/Blueprints/HeroCharacter_Auto2.uasset'
+[2017.12.21-09.12.15:624][299]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Autosaves/Game/MyStuff/Blueprints/HeroCharacter_Auto2.uasset
+[2017.12.21-09.12.15:624][299]LogFileHelpers: Auto-saving content packages took 0.085
+[2017.12.21-09.13.02:765][229]BlueprintLog: New page: Compile HeroCharacter
+[2017.12.21-09.14.52:496][553]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.12.21-09.14.52:706][564]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.21-09.14.54:372][663]Cmd: TRANSACTION UNDO
+[2017.12.21-09.14.54:372][663]LogEditorTransaction: Undo Move Actors
+[2017.12.21-09.14.56:758][787]LogSavePackage: Save=46.61ms
+[2017.12.21-09.14.56:758][787]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Dungeontest77A722F84D408560F98453B13F31210D.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap'
+[2017.12.21-09.14.56:767][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap
+[2017.12.21-09.14.57:043][787]LogSavePackage: Save=103.22ms
+[2017.12.21-09.14.57:043][787]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Dungeontest_BuiltData6488276448E841BC82DCC4A7CC6B15AA.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset'
+[2017.12.21-09.14.57:048][787]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset
+[2017.12.21-09.15.11:535][ 64]SourceControl: fatal: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.12.21-09.15.13:268][ 64]LogSavePackage: Save=41.49ms
+[2017.12.21-09.15.13:268][ 64]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/HeroCharacterA54F135A49E3B9E4619B5BADCB547545.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset'
+[2017.12.21-09.15.13:278][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset
+[2017.12.21-09.15.34:842][ 64]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.12.21-09.15.34:996][ 64]SourceControl: [master 30976e4] Added Child character "outline"
+[2017.12.21-09.15.34:996][ 64]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.12.21-09.15.34:996][ 64]SourceControl:  create mode 100644 DungeonCrowl/Content/MyStuff/Blueprints/HeroCharacter.uasset
+[2017.12.21-09.15.34:996][ 64]SourceControl:  rewrite DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap (89%)
+[2017.12.21-09.15.35:002][ 64]SourceControl: Commited [master 30976e4] Added Child character "outline".
+[2017.12.21-09.16.04:743][259]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.21-09.16.09:474][540]BlueprintLog: New page: Compile TwinStickMode
+[2017.12.21-09.16.10:163][561]LogSavePackage: Save=16.35ms
+[2017.12.21-09.16.10:163][561]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/TwinStickModeB95A73FA41CE4194727368AC725F300F.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/TwinStickMode.uasset'
+[2017.12.21-09.16.10:170][561]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Blueprints/TwinStickMode.uasset
+[2017.12.21-09.16.16:915][952]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.21-09.16.18:741][ 58]SourceControl: Error: fatal: Could not switch to '/Script/': No such file or directory
+[2017.12.21-09.16.31:464][384]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-09.16.31:534][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.21-09.16.31:539][384]PIE: New page: PIE session: Dungeontest (22 Dec 2017 5:16:31 am)
+[2017.12.21-09.16.31:540][384]LogPlayLevel: Creating play world package: /Game/MyStuff/Levels/UEDPIE_0_Dungeontest
+[2017.12.21-09.16.31:548][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008183s)
+[2017.12.21-09.16.31:549][384]LogAIModule: Creating AISystem for world Dungeontest
+[2017.12.21-09.16.31:549][384]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2017.12.21-09.16.31:550][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyStuff/Levels/Dungeontest.Dungeontest to /Game/MyStuff/Levels/UEDPIE_0_Dungeontest.Dungeontest (0.009970s)
+[2017.12.21-09.16.31:575][384]LogInit: XAudio2 using 'Hörlurar på headset (Razer ManO'War 7.1)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-09.16.31:584][384]LogInit: FAudioDevice initialized.
+[2017.12.21-09.16.31:633][384]LogLoad: Game class is 'TwinStickMode_C'
+[2017.12.21-09.16.31:649][384]LogWorld: Bringing World /Game/MyStuff/Levels/UEDPIE_0_Dungeontest.Dungeontest up for play (max tick rate 60) at 2017.12.21-19.16.31
+[2017.12.21-09.16.31:663][384]LogWorld: Bringing up level for play took: 0.015162
+[2017.12.21-09.16.31:754][384]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.12.21-09.16.31:760][384]PIE: Play in editor start time for /Game/MyStuff/Levels/UEDPIE_0_Dungeontest 0.04
+[2017.12.21-09.16.37:936][734]LogSavePackage: Save=44.55ms
+[2017.12.21-09.16.37:936][734]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/DungeontestBDEB95374CDA7845781D2D88BA3D8E5C.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap'
+[2017.12.21-09.16.37:940][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap
+[2017.12.21-09.16.38:142][734]LogSavePackage: Save=67.15ms
+[2017.12.21-09.16.38:142][734]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Dungeontest_BuiltDataBB461A0C44BBD1AEDB2B07B3010D2958.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset'
+[2017.12.21-09.16.38:147][734]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset
+[2017.12.21-09.16.40:568][876]SourceControl: fatal: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.12.21-09.16.47:074][876]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.12.21-09.16.47:280][876]SourceControl: [master 093a537] added Gamemode
+[2017.12.21-09.16.47:280][876]SourceControl:  3 files changed, 2 insertions(+)
+[2017.12.21-09.16.47:280][876]SourceControl:  create mode 100644 DungeonCrowl/Content/MyStuff/Blueprints/TwinStickMode.uasset
+[2017.12.21-09.16.47:287][876]SourceControl: Commited [master 093a537] added Gamemode.
+[2017.12.21-09.16.49:368][988]LogSavePackage: Save=46.27ms
+[2017.12.21-09.16.49:368][988]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Dungeontest3488ACCC4222EC942582AD9872601BCA.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap'
+[2017.12.21-09.16.49:373][988]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest.umap
+[2017.12.21-09.16.49:597][988]LogSavePackage: Save=73.82ms
+[2017.12.21-09.16.49:597][988]LogSavePackage: Moving '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Dungeontest_BuiltData9A804A19452C18F109489190B5FA57CB.tmp' to '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset'
+[2017.12.21-09.16.49:601][988]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/MyStuff/Levels/Dungeontest_BuiltData.uasset
+[2017.12.21-09.16.50:403][ 22]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.21-09.16.50:464][ 22]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.21-09.16.50:806][ 23]Cmd: QUIT_EDITOR
+[2017.12.21-09.16.51:283][ 23]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-09.16.51:297][ 23]LogExit: Preparing to exit.
+[2017.12.21-09.16.52:598][ 23]LogDirectoryWatcher: A directory notification for 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/' was aborted.
+[2017.12.21-09.16.52:705][ 23]LogExit: Editor shut down
+[2017.12.21-09.16.52:713][ 23]LogExit: Transaction tracking system shut down
+[2017.12.21-09.16.52:921][ 23]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.21-09.16.52:921][ 23]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/' was aborted.
+[2017.12.21-09.16.52:921][ 23]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.21-09.16.52:935][ 23]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.21-09.16.52:969][ 23]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.21-09.16.53:230][ 23]LogExit: Object subsystem successfully closed.
+[2017.12.21-09.16.53:259][ 23]LogD3D11RHI: Shutdown
+[2017.12.21-09.16.53:259][ 23]LogD3D11RHI: CleanupD3DDevice
+[2017.12.21-09.16.53:368][ 23]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.21-09.16.53:398][ 23]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.12.21-09.16.53:398][ 23]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.21-09.16.53:398][ 23]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.21-09.16.53:400][ 23]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.12.21-09.16.53:400][ 23]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.12.21-09.16.53:401][ 23]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.12.21-09.16.53:401][ 23]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.12.21-09.16.53:403][ 23]LogDirectoryWatcher: A directory notification for 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/Collections/' was aborted.
+[2017.12.21-09.16.53:403][ 23]LogDirectoryWatcher: A directory notification for 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Content/Developers/VictorWeidar/Collections/' was aborted.
+[2017.12.21-09.16.53:403][ 23]LogDirectoryWatcher: A directory notification for 'C:/Users/Victor Weidar/Desktop/GameDev/Dungeon crOWL/DungeonCrowl/DungeonCrowl/Saved/Collections/' was aborted.
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (520)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.21-09.16.53:403][ 23]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.21-09.16.53:404][ 23]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.21-09.16.53:983][ 23]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.21-09.16.53:984][ 23]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.21-09.16.54:039][ 23]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.21-09.16.54:046][ 23]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.21-09.16.54:048][ 23]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.21-09.16.54:049][ 23]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.21-09.16.54:049][ 23]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.21-09.16.54:075][ 23]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.21-09.16.54:076][ 23]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.21-09.16.54:083][ 23]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.21-09.16.54:084][ 23]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.21-09.16.54:084][ 23]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.21-09.16.54:084][ 23]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.21-09.16.54:085][ 23]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.21-09.16.54:186][ 23]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.21-09.16.54:288][ 23]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.21-09.16.54:289][ 23]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.21-09.16.54:289][ 23]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.21-09.16.54:289][ 23]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.21-09.16.54:289][ 23]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.21-09.16.54:294][ 23]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.21-09.16.54:299][ 23]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.21-09.16.54:300][ 23]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.21-09.16.54:306][ 23]LogDerivedDataCache: Shutdown
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.21-09.16.54:306][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.21-09.16.54:307][ 23]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.21-09.16.54:307][ 23]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.21-09.16.54:308][ 23]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.21-09.16.54:308][ 23]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.21-09.16.54:308][ 23]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC39899C7-4AFD-DC12-C31D-6A9DE5F2560C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=52c09b674ff570e465a91c84e5b3e90a%7C576142a7ce4e41a4a4c4bf69e2f1ce98%7C644e0ae4-f221-42dd-b828-8b6eaba0659c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.21-09.16.54:320][ 23]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.21-09.16.54:321][ 23]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.21-09.16.54:321][ 23]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.21-09.16.54:321][ 23]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.21-09.16.54:322][ 23]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.21-09.16.54:322][ 23]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.21-09.16.54:322][ 23]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.21-09.16.54:322][ 23]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.21-09.16.54:323][ 23]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.21-09.16.54:325][ 23]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.21-09.16.54:329][ 23]LogExit: Exiting.
+[2017.12.21-09.16.54:346][ 23]Log file closed, 12/21/17 19:16:54
