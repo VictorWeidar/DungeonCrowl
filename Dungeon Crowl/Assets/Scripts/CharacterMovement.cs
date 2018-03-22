@@ -1,42 +1,64 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour {
 
-    public float speed;
-    public float range = 150f;
-    public GameObject Model;
-    Vector3 mousePosition;
-    public Camera Maincam;
-    Rigidbody Rb;
+    public float Speed = 6f;
 
-    Vector3 target;
+    Vector3 movement;
+    //Animator anim;
+    Rigidbody PlayerRigidbody;
+    int FloorMask;
+    float camRayLength = 100f;
 
-	// Use this for initialization
-	void Awake ()
+    void Awake()
     {
-        Rb = GetComponent<Rigidbody>();
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        //tell raycast we only want to hit floor
+        FloorMask = LayerMask.GetMask("Floor");
+        //anim = GetComponent<Animator>();
+        PlayerRigidbody = GetComponent<Rigidbody>();
+    }
+
+    private void FixedUpdate()
     {
-        // Velocity Asigning.
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
-        Rb.velocity = new Vector3(h, 0, v) * speed;
 
-        Ray ray = Maincam.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
+        Move(h, v);
+        Turning();
+        //Animating(h, v);
+    }
 
-        if (Physics.Raycast(ray, out hit, range))
+    void Move (float h, float v)
+    {
+        //give vector3 values
+        movement.Set(h, 0f, v);
+        movement = movement.normalized * Speed * Time.deltaTime;
+
+        PlayerRigidbody.MovePosition(transform.position + movement);
+    }
+
+    void Turning()
+    {
+        Ray camRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit floorHit;
+
+        if(Physics.Raycast(camRay, out floorHit, camRayLength, FloorMask))
         {
-            Debug.Log(hit.transform.name);
+            Vector3 PlayerToMouse = floorHit.point - transform.position;
+            PlayerToMouse.y = 0f;
+
+            Quaternion NewRotation = Quaternion.LookRotation(PlayerToMouse);
+            PlayerRigidbody.MoveRotation(NewRotation);
         }
 
-        var rotationLookAt = Quaternion.LookRotation(hit.point - transform.position);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotationLookAt, Time.deltaTime * 10);
+        /*
+        void Animating(float h, float v)
+        {
+            //h is true if not equal to 0, v is true if not equal to 0
+            bool walking = h != 0f || v != 0f;
+            anim.SetBool("IsWalking", walking);
+        }
+        */
     }
 
 }
