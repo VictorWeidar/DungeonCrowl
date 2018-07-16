@@ -9,6 +9,8 @@ public class PlayerShooting : MonoBehaviour {
     public float TimeBetweenBullets = 1f;
     public float BulletSpeed;
 
+    public bool HasSpell = false;
+
     Rigidbody BulletRB;
 
     float timer;
@@ -32,10 +34,20 @@ public class PlayerShooting : MonoBehaviour {
 
     void Shoot()
     {
-        timer = 0f;
+        if(HasSpell)
+        {
+            //Fire special spell
+        }
 
-       GameObject Projectile = Instantiate(BaseProjectile, ShootPoint.position, this.gameObject.transform.rotation);
-       BulletRB = Projectile.GetComponent<Rigidbody>();
-       BulletRB.AddForce(transform.forward * BulletSpeed);
+        else
+        {
+            //Basic spellcasting
+            timer = 0f;
+
+            GameObject Projectile = Instantiate(BaseProjectile, ShootPoint.position, this.gameObject.transform.rotation);
+            BulletRB = Projectile.GetComponent<Rigidbody>();
+            BulletRB.AddForce(transform.forward * BulletSpeed);
+        }
+        
     }
 }

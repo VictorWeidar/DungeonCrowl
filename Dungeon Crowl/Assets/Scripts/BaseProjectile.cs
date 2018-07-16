@@ -33,7 +33,8 @@ public class BaseProjectile : MonoBehaviour {
 
     void Death()
     {
-        Instantiate(HitParticle, transform.position, Quaternion.identity);
+        GameObject Hitparticle = Instantiate(HitParticle, transform.position, Quaternion.identity);
         Destroy(this.gameObject);
+        Destroy(Hitparticle, 1f);
     }
 }
